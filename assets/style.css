@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(13, 10, 10);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Header */
+
+header{display: flex; justify-content: space-between;}
+.menu{display: flex; margin-right: 30px; align-items: center;}
+.menu li{list-style: none; text-decoration: none; margin-right: 30px;}
+.menu> li > a{text-decoration: none; color: azure;}
+.menu > li > a:hover{font-weight: 600; text-decoration: underline;}
+.logo{border: 2px azure solid; border-radius: 3px; margin-left: 70px; padding: 10px;}
