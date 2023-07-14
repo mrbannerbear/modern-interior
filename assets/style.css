@@ -1,14 +1,62 @@
 body{
     background-color: rgb(13, 10, 10);
     color: azure;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Montserrat, sans-serif;
 }
 
 /* Header */
 
-header{display: flex; justify-content: space-between;}
+header{display: flex; justify-content: space-between; align-items: center; height: 15vh;}
 .menu{display: flex; margin-right: 30px; align-items: center;}
 .menu li{list-style: none; text-decoration: none; margin-right: 30px;}
 .menu> li > a{text-decoration: none; color: azure;}
 .menu > li > a:hover{font-weight: 600; text-decoration: underline;}
 .logo{border: 2px azure solid; border-radius: 3px; margin-left: 70px; padding: 10px;}
+
+/* Main */
+
+main{display: flex; justify-content: center; align-items: center;gap: 50px; margin-top: 20px;
+height: 80vh;}
+
+h1{
+font-size: 36px;
+font-weight: 600;
+}
+p{ margin: -20px 0 0 0;}
+
+.read-more{text-decoration: none;
+    color: azure;
+    font-size: 12px;
+    font-weight: 700;}
+
+.img-container{width: 40%; background-color: black;}
+
+img{width: 100%; z-index: 1;}
+
+.guy-pic img{height: 50px; width: 50px; border-radius: 100px;}
+
+.guy-pic{display: flex; align-items: center; gap: 10px; padding: 5px;}
+
+.designer-container p{margin-top: 5px;}
+
+.designer-container{margin-top: -30px; background: rgb(13, 10, 10);
+    width: 50%;  position: relative; left: 150px;}
+
+.guy-description{
+    font-size: 13px;
+}
+
+.guy-description, .guy-pic{ border-radius: 3px;
+      background-color: rgb(13, 10, 10);}
+
+
+ /* Footer */
+
+ footer{color: #A9A9A9;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline; text-align: center;
+margin-top: 250px;}
